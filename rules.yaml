@@ -1,0 +1,194 @@
+rules:
+
+  # ===== FUEL =====
+  - name: fuel
+    patterns:
+      - "petrol"
+      - "hp petrol"
+      - "iocl"
+      - "bpcl"
+      - "hindustan petroleum"
+      - "fuel station"
+      - "shell"
+      - "reliance fuel"
+    category: "Fuel"
+
+  # ===== GROCERIES =====
+  - name: groceries
+    patterns:
+      - "bigbazaar"
+      - "dmart"
+      - "jiomart"
+      - "reliance smart"
+      - "nature s basket"
+      - "grocery"
+      - "supermarket"
+      - "blinkit"
+      - "zepto"
+      - "big basket"
+      - "bbdaily"
+    category: "Groceries"
+
+  # ===== DINING =====
+  - name: dining
+    patterns:
+      - "zomato"
+      - "swiggy"
+      - "restaurant"
+      - "kfc"
+      - "mcdonald"
+      - "domino"
+      - "pizza hut"
+      - "wow momo"
+      - "subway"
+      - "burger king"
+      - "bbq nation"
+    category: "Dining"
+
+  # ===== SHOPPING =====
+  - name: shopping
+    patterns:
+      - "amazon"
+      - "flipkart"
+      - "myntra"
+      - "ajio"
+      - "nykaa"
+      - "decathlon"
+      - "meesho"
+      - "shopclues"
+      - "tata cliq"
+      - "aliexpress"
+      - "snapdeal"
+      - "firstcry"
+    category: "Shopping"
+
+  # ===== SUBSCRIPTIONS =====
+  - name: subscriptions
+    patterns:
+      - "netflix"
+      - "prime"
+      - "hotstar"
+      - "spotify"
+      - "apple tv"
+      - "youtube premium"
+      - "sony liv"
+      - "zee5"
+      - "gaana"
+      - "wynk"
+      - "subscription"
+    category: "Subscriptions"
+
+  # ===== UTILITIES =====
+  - name: utilities
+    patterns:
+      - "electricity bill"
+      - "water bill"
+      - "gas bill"
+      - "recharge"
+      - "airtel"
+      - "jio"
+      - "bsnl"
+      - "fastag"
+      - "tata power"
+      - "internet bill"
+    category: "Utilities"
+
+  # ===== MEDICAL =====
+  - name: medical
+    patterns:
+      - "tata 1mg"
+      - "apollo"
+      - "netmeds"
+      - "pharmacy"
+      - "medplus"
+      - "pharmeasy"
+    category: "Medical"
+
+  # ===== FITNESS =====
+  - name: fitness
+    patterns:
+      - "cult fit"
+      - "curefit"
+      - "golds gym"
+      - "snap fitness"
+    category: "Fitness"
+
+  # ===== TRAVEL / TRANSPORT =====
+  - name: travel
+    patterns:
+      - "uber"
+      - "ola"
+      - "rapido"
+      - "irctc"
+      - "redbus"
+      - "indigo"
+      - "airindia"
+      - "akasa"
+      - "vistara"
+      - "booking com"
+      - "makemytrip"
+      - "oyo"
+    category: "Travel"
+
+  # ===== FINANCE =====
+  - name: finance
+    patterns:
+      - "cred"
+      - "angel one"
+      - "zerodha"
+      - "upstox"
+      - "sip"
+      - "mutual fund"
+    category: "Finance"
+
+  # ===== WALLET / PAYMENTS =====
+  - name: wallet
+    patterns:
+      - "paytm"
+      - "phonepe"
+      - "gpay"
+      - "wallet topup"
+      - "cashfree"
+      - "razorpay"
+    category: "Wallet"
+
+  # ===== EMI / LOAN =====
+  - name: emi_loan
+    patterns:
+      - "emi"
+      - "loan"
+      - "bajaj finance"
+      - "credit card payment"
+      - "repayment"
+    category: "EMI/Loan"
+
+  # ===== ATM =====
+  - name: atm
+    patterns:
+      - "atm withdrawal"
+      - "atm wdl"
+      - "cash withdrawal"
+    category: "ATM"
+
+  # ===== FEES =====
+  - name: fees
+    patterns:
+      - "service charge"
+      - "processing fee"
+      - "convenience fee"
+      - "penalty"
+      - "late fee"
+      - "charges"
+    category: "Fees"
+
+  # ===== TRANSFERS =====
+  - name: transfers
+    patterns:
+      - "neft"
+      - "imps"
+      - "rtgs"
+      - "fund transfer"
+      - "salary"
+      - "upi transfer"
+      - "self transfer"
+    category: "Transfers"
