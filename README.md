@@ -1,3 +1,6 @@
+## 🚀 Live Demo
+🔗 https://ghcidatavoyagershackerton-42f9p2bh3g6t74p2hwkqld.streamlit.app/
+
 # 🛡️ Privacy-First On-Device Transaction Classifier
 
 A fully offline, privacy-focused machine learning system that classifies UPI and bank transaction text into categories such as Shopping, Dining, Fuel, EMI/Loan, Utilities, Subscriptions, Wallet, Transfers, ATM, and more.
